@@ -8,5 +8,6 @@ class AssetRelation(models.Model):
     name = models.CharField(max_length=32, default="component")
     lastname = models.CharField(max_length=32, default="component")
     second_name = models.CharField(max_length=32, default="component")
+    country = models.CharField(max_length=32, default="component")
     order = models.IntegerField(null=True, blank=True)
 
